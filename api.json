@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/anansi",
     "maintainers": [
       {
@@ -16,111 +16,205 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "anansi",
-    "name": "Anansi - The West African Spider Trickster",
-    "aliases": [],
+    "name": "Anansi",
+    "aliases": [
+      { "name": "Ananse", "language": "Akan / Twi", "region": "Ghana" },
+      { "name": "Kwaku Ananse", "language": "Akan / Twi", "meaning": "'Wednesday-born Ananse'" },
+      { "name": "Aunt Nancy", "language": "English (African American)", "region": "Southern United States" },
+      { "name": "Bro Nansi", "language": "English Creole", "region": "Caribbean" },
+      { "name": "Kompa Nanzi", "language": "Papiamentu", "region": "Curaçao / ABC islands" },
+      { "name": "Anancy", "language": "Jamaican Patois", "region": "Jamaica" }
+    ],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "Trickster deity, cultural hero, spider-man",
+    "subcategory": "Trickster spider deity / culture hero",
     "tags": [
-      "folklore",
-      "mythology"
+      "trickster",
+      "akan",
+      "ghana",
+      "west-africa",
+      "caribbean",
+      "spider",
+      "diaspora",
+      "folktale"
     ],
     "status": "documented",
     "description": {
-      "summary": "Anansi (also known as Ananse, Kwaku Ananse, or Aunt Nancy in the Americas) is one of the most important and widespread figures in West African and Caribbean folklore.",
-      "full": "Anansi (also known as Ananse, Kwaku Ananse, or Aunt Nancy in the Americas) is one of the most important and widespread figures in West African and Caribbean folklore. This spider trickster deity originated among the Akan people of Ghana and spread throughout the African diaspora during the transatlantic slave trade, becoming a central figure in African-American, Afro-Caribbean, and South American oral traditions."
+      "summary": "A spider trickster of Akan oral tradition, originating among the Ashanti people of present-day Ghana and carried by enslaved West Africans across the Atlantic, where Anansi became one of the central figures of Caribbean and African-American folklore.",
+      "full": "Anansi (Akan: Ananse) is a spider trickster figure of Akan oral tradition, especially associated with the Ashanti people of present-day Ghana. The name itself means 'spider' in Akan, and Anansi is variously depicted as a literal spider, an anthropomorphic spider with a human face, or a human-shaped figure with spider-like features. Anansi is the central character of a vast cycle of folktales known in Akan as Anansesem ('Spider Stories'). Two foundational Anansi tales are widely retold: in one, Anansi acquires all stories from the sky-god Nyame by completing a series of impossible tasks, becoming the owner of all stories; in another, Anansi tries to hoard all wisdom in a clay pot, only to break it and disperse wisdom across the world. The Atlantic slave trade carried Anansi narratives to the Caribbean and the Americas, where he survived under names such as Anancy (Jamaica), Aunt Nancy (American South), Kompa Nanzi (Curaçao), and Bro Nansi. In the diaspora, Anansi tales served as resistance narratives that valorised the cleverness of the apparently weak. Anansi has been the subject of substantial 20th- and 21st-century literary adaptation, including Neil Gaiman's 'American Gods' (2001) and 'Anansi Boys' (2005), and remains a living oral tradition in West Africa and the Caribbean."
     },
     "etymology": {
-      "origin": "West Africa (Akan peoples) / Caribbean",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Akan / Twi 'ananse', meaning 'spider'.",
+      "meaning": "'Spider'; in narrative usage, the trickster spider figure.",
+      "first_use": "Long-standing in Akan oral tradition; recorded in colonial-era ethnography from the late 19th century onward."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "Trickster deity, cultural hero, spider-man",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Trickster",
+      "subtype": "Spider deity / culture hero",
+      "variant": "Akan / West African Diaspora"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "br-rabbit", "name": "Br'er Rabbit", "relationship": "similar", "description": "African-American trickster figure with overlapping motifs" },
+      { "id": "coyote", "name": "Coyote (trickster)", "relationship": "similar", "description": "Native North American trickster" },
+      { "id": "loki", "name": "Loki", "relationship": "similar", "description": "Norse trickster figure" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Spider form", "description": "A literal spider, sometimes with eight legs and human face", "frequency": "common" },
+        { "feature": "Anthropomorphic spider", "description": "Human-shaped with spider attributes", "frequency": "common" }
+      ],
+      "morphology": "Variable across tellings: literal spider, anthropomorphic spider, or human with spider features."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Cunning and rhetoric", "description": "Anansi defeats stronger opponents through speech, persuasion, and trickery", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Shape-shifting", "description": "Anansi shifts between spider and human forms across tales", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Storytelling / narrative ownership", "description": "After winning the sky-god's stories, Anansi is the owner of all tales", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "family_group",
+      "habitat_preference": ["villages", "forests", "between worlds"]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "West Africa (Akan peoples) / Caribbean",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Originating among the Akan peoples of present-day Ghana and carried through the Atlantic slave trade across West Africa, the Caribbean, and the Americas.",
+      "continents": ["Africa", "North America", "South America"],
+      "countries": ["Ghana", "Côte d'Ivoire", "Jamaica", "Haiti", "Suriname", "Curaçao", "United States", "Trinidad and Tobago"],
+      "regions": ["Akan cultural area", "Caribbean", "Suriname / Guianas", "American South"]
     },
-    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Akan oral tradition (long pre-colonial)",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Akan oral tradition"
+      },
+      "peak_activity_periods": [
+        { "period": "17th–19th century", "description": "Atlantic slave trade carries Anansi traditions to the Caribbean and Americas" },
+        { "period": "20th century", "description": "Major scholarly documentation by R. S. Rattray and Peggy Appiah" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "West Africa (Akan peoples) / Caribbean",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Akan oral tradition, especially among the Ashanti of central Ghana.",
+      "earliest_accounts": "Long pre-colonial Akan oral tradition; documented in writing from late-19th-century ethnography onward.",
+      "folklore_connections": "Anansesem are part of a vast Akan and broader West African storytelling tradition; the figure resonates with other trickster archetypes worldwide."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1930", "event": "R. S. Rattray publishes 'Akan-Ashanti Folk-Tales', collecting Anansi tales in Twi and English", "significance": "Foundational ethnographic record of the Anansi corpus", "source": "Rattray, R. S. (1930), Akan-Ashanti Folk-Tales, Oxford University Press" },
+      { "date": "1966", "event": "Peggy Appiah publishes 'Ananse the Spider: Tales from an Ashanti Village'", "significance": "Influential English-language retelling for general readers", "source": "Appiah, P. (1966)" },
+      { "date": "2005", "event": "Neil Gaiman publishes the novel 'Anansi Boys'", "significance": "Major 21st-century literary engagement with the Anansi tradition", "source": "Gaiman, N. (2005)" }
+    ],
+    "modern_era": "Anansi remains a living tradition in Ghana and across the Caribbean, taught in schools, performed in oral traditions, and adapted in literature, comics, television, and games."
   },
+
   "sightings": {
-    "statistics": {
-      "total_documented": 0,
-      "verified": 0,
-      "disputed": 0,
-      "debunked": 0
-    },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "anansi-evidence-rattray-1930",
+        "type": "ethnographic record",
+        "name": "Akan-Ashanti Folk-Tales (Rattray)",
+        "date": "1930",
+        "description": "R. S. Rattray's bilingual collection of Akan-Ashanti folk tales, including a substantial body of Anansesem.",
+        "status": "verified",
+        "source": "Rattray (1930)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Trickster deity",
+        "description": "In Akan tradition, Anansi has the standing of a trickster deity and culture-hero, mediating between the sky-god Nyame and humanity.",
+        "proponents": ["Akan oral tradition"],
+        "evidence_cited": ["Anansesem corpus", "Continuity of Anansi narrative across the diaspora"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cultural-archetypal trickster",
+        "description": "Folklorists analyse Anansi as one of the world's most fully developed examples of the trickster archetype, performing social and pedagogical work in narrative.",
+        "proponents": ["Folklorists", "Comparative mythologists"],
+        "evidence_cited": ["Comparative trickster studies"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Akan / Ashanti Anansesem",
+        "Caribbean Anancy storytelling",
+        "Surinamese Anansi tradition"
+      ],
+      "stories": [
+        "How Anansi Got the Stories from Nyame",
+        "Anansi and the Pot of Wisdom",
+        "Anansi and the Tar Baby (cognate of Br'er Rabbit)"
+      ],
+      "beliefs": "Anansi tales serve as moral, comic, and educational instruction; in the diaspora, they additionally function as narratives of resistance and survival."
+    },
+    "indigenous": {
+      "cultures": ["Akan", "Ashanti", "Fante", "Akuapem", "Caribbean Maroon communities", "African-American Gullah-Geechee"],
+      "significance": "Anansi is a central figure in Akan culture and a touchstone of African-diasporic identity.",
+      "sensitivity_note": "Anansi tales are a living tradition; they should be presented with attribution to Akan and diasporic source communities.",
+      "respect_guidelines": "Cite Akan tellers, Caribbean storytellers, and recognised folklorists; avoid divorcing Anansi from his cultural and historical context."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Akan-Ashanti Folk-Tales — R. S. Rattray (1930)",
+        "Ananse the Spider: Tales from an Ashanti Village — Peggy Appiah (1966)",
+        "American Gods — Neil Gaiman (2001)",
+        "Anansi Boys — Neil Gaiman (2005)"
+      ],
+      "film_tv": [
+        "American Gods (Starz, 2017–2021) — features Mr. Nancy"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Children's books and school curricula across Ghana, Jamaica, and the United States"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "R. S. Rattray", "affiliation": "British colonial anthropology / Oxford", "contribution": "Foundational documentation of Akan-Ashanti folk tales", "period": "1910s–1930s" },
+      { "name": "Peggy Appiah", "affiliation": "Independent (Ghana)", "contribution": "Influential English-language retellings of Anansi tales", "period": "1960s–2000s" }
+    ],
+    "ongoing_studies": "Active scholarship in folkloristics, African studies, and African-diaspora studies."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-anansi", "type": "website", "title": "Anansi", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Anansi", "accessed": "2026-05-07" },
+    { "id": "rattray-1930", "type": "book", "title": "Akan-Ashanti Folk-Tales", "authors": ["R. S. Rattray"], "publication": "Oxford University Press", "date": "1930" },
+    { "id": "appiah-1966", "type": "book", "title": "Ananse the Spider: Tales from an Ashanti Village", "authors": ["Peggy Appiah"], "publication": "Pantheon Books", "date": "1966" },
+    { "id": "gaiman-2005", "type": "book", "title": "Anansi Boys", "authors": ["Neil Gaiman"], "publication": "William Morrow", "date": "2005", "isbn": "978-0060515188" }
+  ]
 }
